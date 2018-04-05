@@ -1,6 +1,6 @@
-package tn.enis.creatorclient;
+package dp.factory.clientFactory;
 
-import tn.enis.products.Pizza;
+import dp.factory.product.Pizza;
 
 public abstract class PizzaStore {
 	public Pizza orderPizza(String type) {

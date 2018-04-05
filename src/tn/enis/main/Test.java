@@ -1,8 +1,8 @@
 package tn.enis.main;
 
-import tn.enis.creatorclient.PizzaStore;
-import tn.enis.creatorclient.SfaxPizzaStore;
-import tn.enis.creatorclient.TunisPizzaStore;
+import dp.factory.clientFactory.PizzaStore;
+import dp.factory.clientFactory.SfaxPizzaStore;
+import dp.factory.clientFactory.TunisPizzaStore;
 
 public class Test {
 
@@ -10,6 +10,7 @@ public class Test {
 		SfaxPizzaStore sfaxPizzaStore = new SfaxPizzaStore();
 		TunisPizzaStore tunisPizzaStore = new TunisPizzaStore();
 		sfaxPizzaStore.orderPizza("pepperoni");
+		System.out.println("________________________________________________________");
 		tunisPizzaStore.orderPizza("cheese");
 		
 	}
